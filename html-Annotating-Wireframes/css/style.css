@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+/*header*/
+
+header {
+    width: 100%;
+    height: 80px;
+    background: #d3d3d3;
+}
+
+.head {
+    width: 95%;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headBlock {
+    width: 100px;
+    height: 40px;
+    background: #646464;
+}
+
+/*main + content*/
+
+.main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    background: silver;
+}
+
+/*menu*/
+
+.menu {
+    width: 20%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menuBlock {
+    width: 80%;
+    height: 40px;
+    background: #646464;
+    margin-top: 20px;
+}
+
+/*content*/
+
+.content {
+    width: 80%;
+    /*height: auto;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*block 3*/
+
+.blockTree {
+    width: 100%;
+    height: 400px;
+    background: #b4acac;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blockTreeBox {
+    width: 1150px;
+    height: 350px;
+    background: #646464;
+}
+
+/*block 4*/
+
+.blockFour {
+    width: 100%;
+    height: 200px;
+    background: #c4b9b9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 1150px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blockFourBox {
+    width: 20%;
+    height: 70%;
+    background: #646464;
+}
+
+/*mai five and six*/
+
+.mainFiveSix {
+    width: 100%;
+    height: 1500px;
+    display: flex;
+
+}
+
+.mainFiveBlock {
+    width: 75%;
+    height: auto;
+    background: #a49090;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.blockChild {
+    width: 400px;
+    height: 200px;
+    background: #646464;
+    margin-top: 20px;
+}
+
+/*style mainFife block*/
+
+.wrap {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.box {
+    width: 100px;
+    height: 30px;
+    background: #646464;
+}
+
+/*six block style*/
+
+.mainSixBlock {
+    width: 25%;
+    height: auto;
+    background: #d2b0b0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainSixBox {
+    width: 80%;
+    height: 80px;
+    background: #646464;
+    margin-top: 20px;
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    background: #b4a4a4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footBlock {
+    width: 80%;
+    height: 30px;
+    background: #646464;
+}
+
+.small {
+    width: 50%;
+    height: 30px;
+    background: #646464;
+}
