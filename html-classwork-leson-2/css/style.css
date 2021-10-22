@@ -1,53 +1,54 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.flex{
+.flex {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.bgSilver{
+.bgSilver {
     background: #c0c0c0;
 }
 
-.bgDarkBlue{
+.bgDarkBlue {
     background: #01174d;
 }
 
-.bgBlue{
+.bgBlue {
     background: #00d9ff;
 }
 
-.boxRadius{
+.boxRadius {
     border-radius: 15px;
 }
 
-.w100{
+.w100 {
     width: 100%;
 }
+
 /*header*/
 
-header{
+header {
     height: 750px;
 }
 
-.container{
+.container {
     width: 1500px;
     margin: 0 auto;
 }
 
-.menuInfo{
+.menuInfo {
     height: 50px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
 
-.menuInfo_list{
+.menuInfo_list {
     width: 100px;
     height: 10px;
     margin-left: 20px;
@@ -55,21 +56,22 @@ header{
 
 /*menu*/
 
-.mainMenu{
+.mainMenu {
     height: 100px;
 }
-.navigationMenu{
+
+.navigationMenu {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
 }
 
-.menuLogo{
+.menuLogo {
     width: 200px;
     height: 70px;
 }
 
-.navigationMenu > ul{
+.navigationMenu > ul {
     list-style-type: none;
     width: 600px;
     display: flex;
@@ -77,7 +79,7 @@ header{
     align-items: center;
 }
 
-.navigationMenu ul > li{
+.navigationMenu ul > li {
     width: 100px;
     height: 10px;
     margin-bottom: 15px;
@@ -85,66 +87,67 @@ header{
 
 /*head content*/
 
-.headerContent{
+.headerContent {
     height: 600px;
     flex-direction: column;
     flex-wrap: wrap;
 }
 
-.headerContentBlock{
+.headerContentBlock {
     width: 300px;
     height: 50px;
     margin: 3px;
     justify-content: space-between;
 }
 
-.blockItem1{
+.blockItem1 {
     width: 40px;
     height: 15px;
 }
 
-.blockItem{
+.blockItem {
     width: 120px;
     height: 15px;
 }
 
 
-
-.headerContentBlockWrap{
+.headerContentBlockWrap {
     width: 350px;
     height: auto;
     flex-direction: column;
 
 }
 
-.m20{
+.m20 {
     margin: 5px;
 }
-.block1{
+
+.block1 {
     width: 80%;
     justify-content: space-between;
 
 }
-.block2{
+
+.block2 {
     width: 100%;
     justify-content: space-between;
 
 }
 
-.block3{
+.block3 {
     width: 50%;
     justify-content: space-between;
 
 }
 
 
-.block1_box{
+.block1_box {
     width: 40px;
     height: 5px;
 }
 
 
-.btn{
+.btn {
     width: 150px;
     height: 40px;
     margin-top: 10px;
@@ -153,8 +156,351 @@ header{
 }
 
 
+/*section*/
+
+.sectionOne {
+    height: 500px;
+}
+
+.cont {
+    width: 95%;
+    height: 400px;
+    border-radius: 40px;
+    border: 3px solid #00d9ff;
+    flex-direction: column;
+}
 
 
+.contHeader {
+    margin: 10px auto;
+    width: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
 
 
+}
 
+.box {
+    width: 100px;
+    height: 20px;
+}
+
+.box1 {
+    width: 150px;
+    height: 20px;
+}
+
+.cont_main {
+    justify-content: space-between;
+}
+
+
+.contCards {
+    width: 300px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cards {
+    width: 250px;
+    height: 200px;
+}
+
+.discription {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.discr {
+    width: 50px;
+    height: 10px;
+}
+
+.descrOne {
+    width: 80px;
+}
+
+/*section 2*/
+
+.sectionTwo {
+    height: 600px;
+}
+
+
+.containerUserCards {
+    height: 500px;
+    justify-content: space-between;
+}
+
+.container_block {
+    width: 400px;
+    height: 450px;
+}
+
+.cardBord {
+    border: 8px solid #00d9ff;
+}
+
+.container_block {
+    flex-direction: column;
+}
+
+.ballRadius {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.cotntText {
+    height: 100px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.textBlock {
+    display: flex;
+    justify-content: space-around;
+}
+
+.text {
+    width: 100px;
+    height: 15px;
+}
+
+.text1 {
+    width: 100px;
+    height: 10px;
+}
+
+/*section 3*/
+
+
+.sectionTree {
+    padding-bottom: 100px;
+}
+
+.column {
+    flex-direction: column;
+
+}
+
+.titleHeader {
+    width: 250px;
+    height: 100px;
+    justify-content: space-around;
+}
+
+.titleTxt {
+    width: 80px;
+    height: 10px;
+}
+
+.big {
+    width: 120px;
+    height: 10px;
+}
+
+.cardMain {
+    height: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-around;
+
+}
+
+.cardMainContainer {
+    width: 400px;
+    height: 400px;
+    border: 3px solid #00d9ff;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.cardHeaderContainer {
+    width: 100px;
+    height: 100px;
+}
+
+
+.cardMainContainer > .header {
+    width: 350px;
+    height: 150px;
+}
+
+.cardMainContainer > .main {
+    width: 350px;
+    height: 200px;
+}
+
+.cardMainContainer .main > .mainTitle {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.cardMainContainer .main .mainTitle > .titleBlock {
+    width: 80px;
+    height: 5px;
+}
+
+.cardMainContainer .main .mainTitle > .titleBlock1 {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardMainContainer .main .mainTitle .titleBlock1 > .titleBlock2 {
+    width: 40px;
+    height: 5px;
+
+}
+
+.childTitle {
+    /*width: 100%;*/
+    margin-top: 40px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.childTitle__block {
+    width: 80px;
+    height: 10px;
+    margin-right: 10px;
+
+}
+
+.childTitle__block2 {
+    width: 60px;
+    height: 10px;
+    margin-right: 10px;
+}
+
+.widh {
+    width: 100px;
+}
+
+.cardFooterContainer {
+    width: 106%;
+    height: 40px;
+    padding-top: 8px;
+    border-top: 3px solid #00d9ff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.cardFooterContainer .log {
+    width: 70px;
+    height: 30px;
+}
+
+.iconBlock {
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 70px;
+
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+}
+
+
+/*advertising*/
+
+.advertisingFooter {
+    height: 500px;
+    margin-top: 150px;
+}
+
+.advertisingContainer {
+    height: 500px;
+}
+
+.advertisingBlockOne {
+    width: 600px;
+    height: 350px;
+}
+
+
+.advertisingBlockOne_header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.hed {
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.boxAdvertising {
+    width: 200px;
+    margin-right: 50px;
+}
+
+.boxWidth {
+    width: 150px;
+}
+
+
+.boxAdvertisingContent {
+    margin-top: 50px;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.textLeng {
+    width: 80px;
+    height: 5px;
+}
+
+.ball {
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+
+}
+
+/*footer*/
+
+.footer {
+    height: 100px;
+}
+
+.contFooter {
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #00d9ff;
+}
+
+.boxs {
+    width: 30px;
+    height: 30px;
+    background: silver;
+    border-radius: 10px;
+}
