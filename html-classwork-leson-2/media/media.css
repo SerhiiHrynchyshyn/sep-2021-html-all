@@ -1,3 +1,97 @@
-@media screen and (min-width: 1300px){
+@media screen and (max-width: 1268px) {
+    .cont_main {
+        display: flex;
+        justify-content: space-around;
+    }
 
+    .containerUserCards {
+        margin-top: 50px;
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
+    .containerUserCards {
+        justify-content: space-around;
+    }
+
+    .advertisingFooter {
+        height: auto;
+        flex-wrap: wrap;
+        width: 85%;
+    }
+
+}
+
+@media screen and (max-width: 835px) {
+    .navigationMenu > ul {
+        align-items: flex-end;
+        flex-direction: column;
+        height: 60px;
+    }
+
+    .navigationMenu ul > li {
+        margin-bottom: 0;
+    }
+
+    .navigationMenu ul > .listNone {
+        display: none;
+    }
+
+    .menuInfo_list {
+        display: none;
+    }
+
+    .navigationMenu {
+        align-items: center;
+    }
+
+
+}
+
+
+@media screen and (max-width: 780px) {
+    .advertisingBlockOne {
+        max-width: 600px;
+        height: 350px;
+    }
+}
+
+
+@media screen and (max-width: 720px) {
+    .advertisingBlockOne {
+        max-width: 455px;
+    }
+
+    .hed {
+        flex-wrap: wrap;
+    }
+
+    .boxWidth {
+        width: 150px;
+        height: 20px;
+        margin: 5px;
+    }
+
+    .boxAdvertising {
+        width: 200px;
+        height: 20px;
+        margin-left: 5px;
+    }
+}
+
+@media screen and (max-width: 535px) {
+    .advertisingBlockOne_header {
+        width: 95%;
+        flex-wrap: wrap;
+    }
+
+    .boxAdvertisingContent {
+        justify-content: flex-start;
+        margin-left: 5px;
+    }
+
+    .textLeng {
+        margin: 5px;
+    }
 }

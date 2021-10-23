@@ -242,12 +242,15 @@ header {
 /*section 2*/
 
 .sectionTwo {
-    height: 600px;
+    /*height: 600px;*/
+    min-height: 600px;
 }
 
 
 .containerUserCards {
-    height: 500px;
+    /*height: 500px;*/
+    height: auto;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -458,10 +461,11 @@ header {
 
 
 .advertisingBlockOne_header {
-    width: 100%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     margin-bottom: 30px;
+    margin-left: 15px;
 }
 
 .hed {
@@ -482,9 +486,10 @@ header {
 
 .boxAdvertisingContent {
     margin-top: 50px;
-    width: 500px;
+    max-width: 500px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .textLeng {
